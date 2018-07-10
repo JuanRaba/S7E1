@@ -14,7 +14,7 @@ h.delete(:y)
 puts h
 
 puts 'Si el hash tiene una clave llamada z mostrar en pantalla "yeeah".'
-puts "yeeah" if h['z']
+puts "yeeah" if h.key? 'z'
 
 puts 'Invertir el diccionario de forma que los valores sean las llaves y las llaves los valores
 Ejemplo:
