@@ -17,4 +17,4 @@ invertido = hash.invert
 puts invertido
 
 puts '2. Obtener el mes mayor cantidad de ventas (a partir del hash invertido.)'
-puts invertido[ invertido.keys.max ]
+puts invertido[invertido.keys.max]
